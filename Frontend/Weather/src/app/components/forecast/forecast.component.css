@@ -1,0 +1,77 @@
+.forecast-container {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8f0fe;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 110px);
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #155cb0;
+  }
+  
+  .forecast-info {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .forecast-info h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  
+  .forecast-day {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast-day p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .forecast-day hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+  }
+  
